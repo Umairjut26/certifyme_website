@@ -1671,7 +1671,8 @@ section {
 /* Blog Section Header */
 .section-header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;  /* Allow wrapping on smaller screens */
     gap: 15px;
