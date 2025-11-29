@@ -672,18 +672,29 @@ function initContactForm() {
     
     form.addEventListener('submit', function(e) {
         e.preventDefault();
-        
         if (validateForm()) {
-            // Show success message
-            form.style.display = 'none';
-            document.getElementById('formSuccess').classList.add('show');
-            
-            // Reset form after 3 seconds
-            setTimeout(() => {
-                form.reset();
-                form.style.display = 'block';
-                document.getElementById('formSuccess').classList.remove('show');
-            }, 3000);
+            const formData = new FormData(form);
+            fetch('submit_contact.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    form.style.display = 'none';
+                    document.getElementById('formSuccess').classList.add('show');
+                    setTimeout(() => {
+                        form.reset();
+                        form.style.display = 'block';
+                        document.getElementById('formSuccess').classList.remove('show');
+                    }, 3000);
+                } else {
+                    alert(data.msg);
+                }
+            })
+            .catch(() => {
+                alert('Error submitting form. Please try again.');
+            });
         }
     });
 }
@@ -769,3 +780,34 @@ window.addEventListener('click', function(e) {
         closeSuccessModal();
     }
 });
+ // Modal functions
+        function closeModal() {
+            document.getElementById('certificationModal').style.display = 'none';
+        }
+        
+        function closeSuccessModal() {
+            document.getElementById('successStoryModal').style.display = 'none';
+        }
+        
+        // Example of opening a modal (you can customize this based on your needs)
+        function openCertificationModal() {
+            document.getElementById('certificationModal').style.display = 'flex';
+        }
+        
+        function openSuccessModal() {
+            document.getElementById('successStoryModal').style.display = 'flex';
+        }
+        
+        // Close modals when clicking outside
+        window.onclick = function(event) {
+            const certModal = document.getElementById('certificationModal');
+            const successModal = document.getElementById('successStoryModal');
+            
+            if (event.target === certModal) {
+                certModal.style.display = 'none';
+            }
+            
+            if (event.target === successModal) {
+                successModal.style.display = 'none';
+            }
+        }
