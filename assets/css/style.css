@@ -949,6 +949,8 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
 }
 
+
+
 /* Buttons */
 .btn {
     display: inline-block;
@@ -1656,6 +1658,88 @@ section {
     color: var(--text-gray);
     font-size: 13px;
 }
+
+.section-subtitle{
+    text-align: start;
+}
+
+
+/* Blog Section Header */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;  /* Allow wrapping on smaller screens */
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* Text Heading Group */
+.header-text {
+    max-width: 600px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section-subtitle {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Add Blog Button */
+.add-blog-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+
+.add-blog-btn:hover {
+    background-color: #005fcc;
+}
+
+/* ========== Responsive Styles ========== */
+
+/* Tablets */
+@media (max-width: 900px) {
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 600px) {
+    .section-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .add-blog-btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+    }
+}
+
 
 /* Contact Section */
 .contact-content {

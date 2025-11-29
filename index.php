@@ -50,7 +50,7 @@
     include 'includes/page-parts/successstories.php';
 
     // Blog Section
-    include 'includes/page-parts/blog.php';
+    include 'includes/page-parts/blogs/blog.php';
 
     // Contact Section
     include 'includes/page-parts/contact.php';

@@ -242,7 +242,28 @@ const blogPosts = [
         date: "November 15, 2025",
         category: "Industry News",
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
-    }
+    },
+    {
+        title: "4th",
+        excerpt: "Detailed analysis of cloud engineer salaries across major Pakistani cities and how certifications impact earning potential.",
+        date: "November 15, 2025",
+        category: "Industry News",
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+    },
+    {
+        title: "5th",
+        excerpt: "Detailed analysis of cloud engineer salaries across major Pakistani cities and how certifications impact earning potential.",
+        date: "November 15, 2025",
+        category: "Industry News",
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+    },
+    {
+        title: "6th",
+        excerpt: "Detailed analysis of cloud engineer salaries across major Pakistani cities and how certifications impact earning potential.",
+        date: "November 15, 2025",
+        category: "Industry News",
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+    },
 ];
 
 // State
@@ -632,8 +653,11 @@ function closeSuccessModal() {
 // Blog Posts
 function renderBlogPosts() {
     const grid = document.getElementById('blogGrid');
-    
-    grid.innerHTML = blogPosts.map(post => `
+
+    // Show only the first 3 posts
+    const limitedPosts = blogPosts.slice(0, 3);
+
+    grid.innerHTML = limitedPosts.map(post => `
         <div class="blog-card">
             <img src="${post.image}" alt="${post.title}" class="blog-image">
             <div class="blog-content">
@@ -647,6 +671,7 @@ function renderBlogPosts() {
         </div>
     `).join('');
 }
+
 
 // Contact Form
 function initContactForm() {
