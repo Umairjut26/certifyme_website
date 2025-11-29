@@ -912,6 +912,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .hero-overlay {
@@ -948,6 +949,29 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 450px; /* adjust height for mobile */
+    }
+
+    .hero-background {
+        background-size: cover !important; 
+        background-position: top center !important;
+        background-attachment: scroll !important; 
+    }
+
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-subtitle {
+        font-size: 15px;
+    }
+}
+
 
 /* Buttons */
 .btn {
@@ -1070,8 +1094,11 @@ section {
 }
 
 .cert-icon {
-    font-size: 48px;
-    margin-bottom: 20px;
+    width: 65px;
+    height: 65px;
+    margin-bottom: 15px;
+    object-fit: contain;
+    opacity: 1;
 }
 
 .cert-vendor {
@@ -1938,8 +1965,11 @@ section {
 }
 
 .modal-icon {
-    font-size: 80px;
+    width: 65px;
+    height: 65px;
     margin-bottom: 20px;
+    object-fit: contain;
+    opacity: 1;
 }
 
 .modal-title {
@@ -2153,6 +2183,14 @@ section {
 
     .hero-subtitle {
         font-size: 16px;
+    }
+
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero-background {
+        background-attachment: scroll;
     }
 
     .section-title {

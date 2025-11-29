@@ -7,7 +7,7 @@ const certifications = [
         exam_fee: "PKR 15,000",
         duration: "6 weeks",
         difficulty: "Intermediate",
-        icon: "☁️",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
         description: "Learn to design distributed systems on AWS cloud platform",
         prerequisites: "Basic IT knowledge, 1+ year experience recommended",
         topics: [
@@ -28,7 +28,7 @@ const certifications = [
         exam_fee: "PKR 16,000",
         duration: "6 weeks",
         difficulty: "Intermediate",
-        icon: "🔷",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg",
         description: "Master Azure administration and cloud infrastructure management",
         prerequisites: "Understanding of cloud concepts and Azure services",
         topics: [
@@ -49,7 +49,7 @@ const certifications = [
         exam_fee: "PKR 14,000",
         duration: "5 weeks",
         difficulty: "Intermediate",
-        icon: "🔒",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/comptia.svg",
         description: "Foundational cybersecurity certification for IT professionals",
         prerequisites: "Basic networking and IT fundamentals",
         topics: [
@@ -70,7 +70,7 @@ const certifications = [
         exam_fee: "PKR 15,000",
         duration: "6 weeks",
         difficulty: "Intermediate",
-        icon: "🌐",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg",
         description: "Deploy and manage applications on Google Cloud Platform",
         prerequisites: "Basic cloud computing knowledge",
         topics: [
@@ -91,7 +91,7 @@ const certifications = [
         exam_fee: "PKR 18,000",
         duration: "8 weeks",
         difficulty: "Intermediate",
-        icon: "🌍",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg",
         description: "Network fundamentals and Cisco routing/switching",
         prerequisites: "Basic computer literacy",
         topics: [
@@ -112,7 +112,7 @@ const certifications = [
         exam_fee: "PKR 12,000",
         duration: "4 weeks",
         difficulty: "Beginner",
-        icon: "💻",
+        icon: "https://cdn.jsdelivr.net/npm/simple-icons@v12/icons/comptia.svg",
         description: "Entry-level IT support and troubleshooting certification",
         prerequisites: "None - perfect for beginners",
         topics: [
@@ -243,6 +243,7 @@ const blogPosts = [
         category: "Industry News",
         image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
     }
+    
 ];
 
 // State
@@ -305,7 +306,7 @@ function renderCertifications() {
     
     grid.innerHTML = displayCerts.map(cert => `
         <div class="certification-card" onclick="showCertificationModal(${certifications.indexOf(cert)})">
-            <div class="cert-icon">${cert.icon}</div>
+            <img src="${cert.icon}" alt="${cert.name}" class="cert-icon">
             <div class="cert-vendor">${cert.vendor}</div>
             <h3 class="cert-name">${cert.name}</h3>
             <div class="cert-meta">
@@ -330,7 +331,7 @@ function showAllCertifications(event) {
     
     grid.innerHTML = certifications.map(cert => `
         <div class="certification-card" onclick="showCertificationModal(${certifications.indexOf(cert)})">
-            <div class="cert-icon">${cert.icon}</div>
+            <img src="${cert.icon}" alt="${cert.name}" class="cert-icon">
             <div class="cert-vendor">${cert.vendor}</div>
             <h3 class="cert-name">${cert.name}</h3>
             <div class="cert-meta">
@@ -358,7 +359,7 @@ function showCertificationModal(index) {
     
     modalBody.innerHTML = `
         <div class="modal-header">
-            <div class="modal-icon">${cert.icon}</div>
+            <img src="${cert.icon}" alt="${cert.name}" class="modal-icon">
             <h2 class="modal-title">${cert.name}</h2>
             <p class="modal-vendor">${cert.vendor}</p>
         </div>
