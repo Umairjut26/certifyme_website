@@ -157,41 +157,32 @@ const testimonials = [
 
 const successStories = [
     {
-        name: "Aisha Malik",
+        name: "Umair",
         before: "Computer Science Graduate",
         after: "DevOps Engineer at Netsol",
         certification: "AWS Solutions Architect",
         salary_increase: "85%",
         story: "Fresh graduate with no experience to DevOps Engineer earning PKR 120,000/month in 4 months",
-        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=300&fit=crop"
+        image: "./assets/umair.jfif"
     },
     {
-        name: "Bilal Ahmed",
+        name: "Faizan",
         before: "IT Support Technician",
         after: "Cloud Infrastructure Engineer",
         certification: "Azure Administrator",
         salary_increase: "60%",
         story: "Career transformation from PKR 45,000 to PKR 95,000 monthly salary",
-        image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&h=300&fit=crop"
+        image: "./assets/faizan.jfif"
     },
     {
-        name: "Sara Khan",
+        name: "Uzair",
         before: "Fresh Graduate",
         after: "Security Analyst at Bank Alfalah",
         certification: "CompTIA Security+",
         salary_increase: "100%",
         story: "From jobless to earning PKR 80,000/month in the cybersecurity field",
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=300&fit=crop"
+        image: "./assets/uzair.png"
     },
-    {
-        name: "Usman Tariq",
-        before: "Network Technician",
-        after: "Senior Network Engineer at PTCL",
-        certification: "Cisco CCNA",
-        salary_increase: "70%",
-        story: "Promotion and salary jump from PKR 50,000 to PKR 110,000 within 6 months",
-        image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=300&fit=crop"
-    }
 ];
 
 const faqs = [
