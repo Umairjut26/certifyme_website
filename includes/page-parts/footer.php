@@ -2,8 +2,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-col">
-                    <h3>About CertifyMe.pk</h3>
-                    <p>Pakistan's premier IT certification and training platform, empowering professionals with industry-recognized credentials and career advancement opportunities.</p>
+                    <h3 style="color:#fff; font-size:24px; font-weight:700; letter-spacing:1px; text-shadow:0 2px 8px rgba(0,0,0,0.18);">About CertifyMe.pk</h3>
+                    <p style="color:#e0f7fa;">Pakistan's premier IT certification and training platform, empowering professionals with industry-recognized credentials and career advancement opportunities.</p>
                     <div class="trust-badges">
                         <span class="badge">Pearson VUE</span>
                         <span class="badge">Prometric</span>
@@ -11,8 +11,8 @@
                     </div>
                 </div>
                 <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul>
+                    <h3 style="color:#fff; font-size:24px; font-weight:700; letter-spacing:1px; text-shadow:0 2px 8px rgba(0,0,0,0.18);">Quick Links</h3>
+                    <ul style="color:#e0f7fa;">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#certifications">Certifications</a></li>
                         <li><a href="#training">Training</a></li>
@@ -23,22 +23,23 @@
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>Top Certifications</h3>
-                    <ul>
+                    <h3 style="color:#fff; font-size:24px; font-weight:700; letter-spacing:1px; text-shadow:0 2px 8px rgba(0,0,0,0.18);">Top Certifications</h3>
+                    <ul style="color:#e0f7fa;">
                         <li><a href="#certifications">AWS Solutions Architect</a></li>
                         <li><a href="#certifications">Microsoft Azure Administrator</a></li>
                         <li><a href="#certifications">CompTIA Security+</a></li>
                         <li><a href="#certifications">Google Cloud Associate</a></li>
                         <li><a href="#certifications">Cisco CCNA</a></li>
+                        <li><a href="#certifications">CompTIA A+</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li>📍 Plaza 54, Abdali Road, Multan</li>
-                        <li>📞 +92-61-4567890</li>
-                        <li>📧 info@certifyme.pk</li>
-                        <li>🕐 Mon-Sat: 9 AM - 8 PM</li>
+                    <h3 style="color:#fff; font-size:24px; font-weight:700; letter-spacing:1px; text-shadow:0 2px 8px rgba(0,0,0,0.18);">Contact</h3>
+                    <ul style="color:#e0f7fa;">
+                            <li><span class="icon" aria-label="Address"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></span> CertifyMe Multan Office, M5, First Floor, Arcade Plaza, Sector C, DHA, Multan</li>
+                            <li><span class="icon" aria-label="Phone"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1v3.5a1 1 0 01-1 1C7.61 22 2 16.39 2 9.5a1 1 0 011-1H6.5a1 1 0 011 1c0 1.35.27 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg></span> +923133359999</li>
+                            <li><span class="icon" aria-label="Email"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zm0 12H4V8l8 5 8-5v10z"/></svg></span> info@certifyme.pk</li>
+                            <li><span class="icon" aria-label="Business Hours"><svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 20c4.41 0 8-3.59 8-8s-3.59-8-8-8-8 3.59-8 8 3.59 8 8 8zm0-14c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6 2.69-6 6-6zm.5 7.25V7h-1v5.25l4.5 2.67.5-.87-4-2.3z"/></svg></span> Mon-Sat: 9 AM - 8 PM</li>
                     </ul>
                 </div>
             </div>
