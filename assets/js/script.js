@@ -218,45 +218,611 @@ const blogPosts = [
         excerpt: "Discover which certifications are most in-demand by Pakistani employers and offer the best ROI for your career.",
         date: "November 20, 2025",
         category: "Career Advice",
-       image: "./assets/image/pexels-pixabay-261662.jpg"
+        image: "./assets/image/pexels-pixabay-261662.jpg",
+        fullContent: `
+            <p>The IT industry in Pakistan is booming, and certified professionals are in high demand. If you're looking to advance your career or break into the tech field, getting certified is one of the best investments you can make. Here are the top 5 IT certifications that Pakistani employers are actively seeking in 2026.</p>
+
+            <h2>1. AWS Certified Solutions Architect - Associate</h2>
+            <p>Cloud computing dominates the IT landscape, and Amazon Web Services (AWS) leads the pack. This certification validates your ability to design distributed systems on AWS and is highly valued by both local and international companies operating in Pakistan.</p>
+            <p><strong>Average Salary:</strong> PKR 80,000 - 150,000/month</p>
+            <p><strong>Best For:</strong> IT professionals, system administrators, developers</p>
+
+            <h2>2. Microsoft Azure Administrator</h2>
+            <p>With Microsoft's strong presence in Pakistan's enterprise sector, Azure skills are increasingly sought after. This certification demonstrates your expertise in implementing, monitoring, and maintaining Microsoft Azure solutions.</p>
+            <p><strong>Average Salary:</strong> PKR 85,000 - 160,000/month</p>
+            <p><strong>Best For:</strong> System administrators, cloud engineers</p>
+
+            <h2>3. CompTIA Security+</h2>
+            <p>Cybersecurity is no longer optional for businesses. As cyber threats increase, demand for security professionals has skyrocketed. Security+ is the perfect entry point into the cybersecurity field.</p>
+            <p><strong>Average Salary:</strong> PKR 70,000 - 140,000/month</p>
+            <p><strong>Best For:</strong> IT professionals entering security, network administrators</p>
+
+            <h2>4. Cisco CCNA</h2>
+            <p>Networking remains fundamental to IT infrastructure. CCNA certification proves your skills in installing, configuring, and troubleshooting medium-size routed and switched networks.</p>
+            <p><strong>Average Salary:</strong> PKR 60,000 - 120,000/month</p>
+            <p><strong>Best For:</strong> Network administrators, support engineers</p>
+
+            <h2>5. Google Cloud Associate Engineer</h2>
+            <p>Google Cloud Platform (GCP) is gaining traction in Pakistan's startup ecosystem and among digital agencies. This certification validates your ability to deploy applications and monitor operations on GCP.</p>
+            <p><strong>Average Salary:</strong> PKR 75,000 - 145,000/month</p>
+            <p><strong>Best For:</strong> Developers, DevOps engineers, cloud engineers</p>
+
+            <h2>Return on Investment</h2>
+            <p>On average, certified IT professionals in Pakistan earn 40-60% more than their non-certified peers. The initial investment in training and certification typically pays for itself within 3-6 months through increased salary or new job opportunities.</p>
+
+            <blockquote>
+                "Getting my AWS certification through CertifyMe.pk changed my career trajectory completely. Within 2 months, I moved from a support role earning PKR 45,000 to a cloud engineer position at PKR 95,000." - Ahmed K., Cloud Engineer
+            </blockquote>
+
+            <h2>Next Steps</h2>
+            <p>Ready to get certified? Choose the certification that aligns with your career goals and start your journey today. At CertifyMe.pk, we provide comprehensive training, hands-on labs, and exam preparation support to ensure your success.</p>
+        `
     },
     {
         title: "How to Prepare for AWS Solutions Architect Exam",
         excerpt: "A comprehensive 6-week study plan with free resources and practice tips from our certified instructors.",
         date: "November 18, 2025",
         category: "Exam Prep",
-        image: "./assets/image/imgi_1_th.png"
+        image: "./assets/image/imgi_1_th.png",
+        fullContent: `
+            <p>The AWS Certified Solutions Architect - Associate (SAA-C03) exam is one of the most popular cloud certifications globally. With proper preparation, you can pass this exam on your first attempt. Here's your complete 6-week study plan.</p>
+
+            <h2>Week 1-2: Core AWS Services</h2>
+            <p>Focus on understanding the fundamental AWS services that form the backbone of the exam:</p>
+            <ul>
+                <li><strong>EC2:</strong> Instance types, pricing models, Auto Scaling, Load Balancers</li>
+                <li><strong>S3:</strong> Storage classes, versioning, lifecycle policies, encryption</li>
+                <li><strong>VPC:</strong> Subnets, route tables, NAT gateways, security groups</li>
+                <li><strong>IAM:</strong> Users, groups, roles, policies, and best practices</li>
+                <li><strong>RDS:</strong> Database engines, Multi-AZ deployments, read replicas</li>
+            </ul>
+
+            <h2>Week 3-4: Advanced Services & Architecture</h2>
+            <p>Dive deeper into architectural patterns and additional services:</p>
+            <ul>
+                <li>High Availability and Fault Tolerance design patterns</li>
+                <li>CloudFront and content delivery</li>
+                <li>Route 53 for DNS management</li>
+                <li>Lambda and serverless architectures</li>
+                <li>DynamoDB and NoSQL concepts</li>
+                <li>SQS, SNS, and messaging services</li>
+            </ul>
+
+            <h2>Week 5: Practice Exams & Weak Areas</h2>
+            <p>Take full-length practice exams to identify your weak areas. Focus on:</p>
+            <ul>
+                <li>Reviewing incorrect answers thoroughly</li>
+                <li>Understanding WHY the correct answer is right</li>
+                <li>Revisiting AWS documentation for challenging topics</li>
+                <li>Creating flashcards for key concepts</li>
+            </ul>
+
+            <h2>Week 6: Final Review & Exam Strategy</h2>
+            <p>In your final week, focus on:</p>
+            <ul>
+                <li>Taking 2-3 more practice exams</li>
+                <li>Reviewing AWS Well-Architected Framework</li>
+                <li>Understanding exam question patterns</li>
+                <li>Practicing time management (130 minutes for 65 questions)</li>
+            </ul>
+
+            <h2>Recommended Free Resources</h2>
+            <ul>
+                <li><strong>AWS Documentation:</strong> Official AWS docs are your best friend</li>
+                <li><strong>AWS Skill Builder:</strong> Free courses directly from AWS</li>
+                <li><strong>AWS FAQs:</strong> Essential reading for each service</li>
+                <li><strong>AWS Whitepapers:</strong> Focus on Well-Architected Framework</li>
+            </ul>
+
+            <h2>Exam Day Tips</h2>
+            <ol>
+                <li>Get a good night's sleep before the exam</li>
+                <li>Arrive 30 minutes early to the testing center</li>
+                <li>Read each question carefully - watch for keywords like "MOST cost-effective" or "LEAST operational overhead"</li>
+                <li>Eliminate obviously wrong answers first</li>
+                <li>Flag difficult questions and return to them later</li>
+                <li>Don't second-guess yourself too much</li>
+            </ol>
+
+            <blockquote>
+                "Following this study plan and using CertifyMe.pk's practice labs, I passed my AWS exam with a score of 890/1000 on my first attempt!" - Fatima A., Solutions Architect
+            </blockquote>
+
+            <h2>Join Our AWS Training Program</h2>
+            <p>At CertifyMe.pk, our AWS Solutions Architect course includes hands-on labs, real-world scenarios, and unlimited practice exams. Our students have an 85%+ first-attempt pass rate.</p>
+        `
     },
     {
         title: "Cloud Computing Jobs in Pakistan: Salary Guide 2026",
         excerpt: "Detailed analysis of cloud engineer salaries across major Pakistani cities and how certifications impact earning potential.",
         date: "November 15, 2025",
         category: "Industry News",
-        image: "./assets/image/imgi_4_t_500x300.png"
+        image: "./assets/image/imgi_4_t_500x300.png",
+        fullContent: `
+            <p>Cloud computing has revolutionized Pakistan's IT job market. With the rise of remote work and global hiring, Pakistani cloud professionals now have access to both local and international opportunities. Let's dive into the salary landscape for 2026.</p>
+
+            <h2>Entry-Level Cloud Engineers (0-2 years)</h2>
+            <h3>Karachi</h3>
+            <p><strong>Without Certification:</strong> PKR 40,000 - 60,000/month</p>
+            <p><strong>With Certification:</strong> PKR 65,000 - 90,000/month</p>
+
+            <h3>Lahore</h3>
+            <p><strong>Without Certification:</strong> PKR 38,000 - 55,000/month</p>
+            <p><strong>With Certification:</strong> PKR 60,000 - 85,000/month</p>
+
+            <h3>Islamabad</h3>
+            <p><strong>Without Certification:</strong> PKR 42,000 - 65,000/month</p>
+            <p><strong>With Certification:</strong> PKR 70,000 - 95,000/month</p>
+
+            <h2>Mid-Level Cloud Engineers (2-5 years)</h2>
+            <h3>Karachi</h3>
+            <p><strong>Without Certification:</strong> PKR 80,000 - 120,000/month</p>
+            <p><strong>With Certification:</strong> PKR 120,000 - 180,000/month</p>
+
+            <h3>Lahore</h3>
+            <p><strong>Without Certification:</strong> PKR 75,000 - 110,000/month</p>
+            <p><strong>With Certification:</strong> PKR 115,000 - 170,000/month</p>
+
+            <h3>Islamabad</h3>
+            <p><strong>Without Certification:</strong> PKR 85,000 - 130,000/month</p>
+            <p><strong>With Certification:</strong> PKR 130,000 - 190,000/month</p>
+
+            <h2>Senior Cloud Architects (5+ years)</h2>
+            <h3>Karachi</h3>
+            <p><strong>Without Certification:</strong> PKR 150,000 - 250,000/month</p>
+            <p><strong>With Certification:</strong> PKR 220,000 - 400,000/month</p>
+
+            <h3>Lahore</h3>
+            <p><strong>Without Certification:</strong> PKR 140,000 - 230,000/month</p>
+            <p><strong>With Certification:</strong> PKR 200,000 - 380,000/month</p>
+
+            <h3>Islamabad</h3>
+            <p><strong>Without Certification:</strong> PKR 160,000 - 270,000/month</p>
+            <p><strong>With Certification:</strong> PKR 240,000 - 420,000/month</p>
+
+            <h2>Remote International Opportunities</h2>
+            <p>Pakistani cloud professionals working remotely for international companies can earn significantly more:</p>
+            <ul>
+                <li><strong>Entry-Level:</strong> $800 - $1,500/month (PKR 220,000 - 420,000)</li>
+                <li><strong>Mid-Level:</strong> $2,000 - $4,000/month (PKR 560,000 - 1,120,000)</li>
+                <li><strong>Senior-Level:</strong> $4,500 - $8,000/month (PKR 1,260,000 - 2,240,000)</li>
+            </ul>
+
+            <h2>Impact of Certifications</h2>
+            <p>The data clearly shows that certified professionals earn 40-80% more than their non-certified counterparts. Here's the average salary boost by certification:</p>
+            <ul>
+                <li><strong>AWS Certified Solutions Architect:</strong> +55% average salary increase</li>
+                <li><strong>Microsoft Azure Administrator:</strong> +60% average salary increase</li>
+                <li><strong>Google Cloud Engineer:</strong> +50% average salary increase</li>
+                <li><strong>Multiple Certifications:</strong> +75-100% average salary increase</li>
+            </ul>
+
+            <h2>Top Hiring Companies in Pakistan</h2>
+            <p>These companies are actively hiring cloud professionals in Pakistan:</p>
+            <ul>
+                <li>Systems Limited</li>
+                <li>NetSol Technologies</li>
+                <li>Arbisoft</li>
+                <li>Tkxel</li>
+                <li>Folio3</li>
+                <li>VentureDive</li>
+                <li>10Pearls</li>
+                <li>Contour Software</li>
+            </ul>
+
+            <h2>Future Outlook</h2>
+            <p>Cloud computing jobs in Pakistan are projected to grow by 35% annually through 2028. The demand far exceeds the supply of qualified professionals, making this the perfect time to upskill and get certified.</p>
+
+            <blockquote>
+                "After getting AWS certified through CertifyMe.pk, I received three job offers within one month. My salary jumped from PKR 50,000 to PKR 110,000. The certification opened doors I never thought possible." - Hassan R., Cloud Engineer
+            </blockquote>
+
+            <h2>Ready to Boost Your Earning Potential?</h2>
+            <p>Don't let this opportunity pass. Invest in your certification today and unlock the high-paying cloud computing career you deserve.</p>
+        `
     },
-    
-    
     {
-        title: "4th",
-        excerpt: "Detailed analysis of cloud engineer salaries across major Pakistani cities and how certifications impact earning potential.",
-        date: "November 15, 2025",
-        category: "Industry News",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+        title: "CompTIA Security+ vs CEH: Which Certification is Right for You?",
+        excerpt: "Compare two leading cybersecurity certifications and find out which one aligns best with your career goals in Pakistan's security industry.",
+        date: "November 10, 2025",
+        category: "Career Advice",
+        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop",
+        fullContent: `
+            <p>Cybersecurity is one of the fastest-growing fields in Pakistan's IT sector. With increasing cyber threats, companies are desperately seeking qualified security professionals. Two certifications stand out: CompTIA Security+ and Certified Ethical Hacker (CEH). Let's compare them to help you make the right choice.</p>
+
+            <h2>CompTIA Security+</h2>
+            <p>Security+ is a vendor-neutral certification that covers fundamental cybersecurity concepts. It's recognized globally and serves as an excellent entry point into the security field.</p>
+            
+            <h3>Key Topics:</h3>
+            <ul>
+                <li>Threats, attacks, and vulnerabilities</li>
+                <li>Technologies and tools</li>
+                <li>Architecture and design</li>
+                <li>Identity and access management</li>
+                <li>Risk management</li>
+                <li>Cryptography and PKI</li>
+            </ul>
+
+            <p><strong>Best For:</strong> IT professionals transitioning to security, help desk staff moving up, system administrators</p>
+            <p><strong>Average Salary in Pakistan:</strong> PKR 70,000 - 140,000/month</p>
+            <p><strong>Training Duration:</strong> 5-6 weeks</p>
+            <p><strong>Exam Cost:</strong> PKR 14,000</p>
+
+            <h2>Certified Ethical Hacker (CEH)</h2>
+            <p>CEH focuses on offensive security - teaching you to think like a hacker to better defend systems. It's more hands-on and penetration testing focused than Security+.</p>
+
+            <h3>Key Topics:</h3>
+            <ul>
+                <li>Footprinting and reconnaissance</li>
+                <li>Scanning networks and enumeration</li>
+                <li>Vulnerability analysis</li>
+                <li>System hacking and exploitation</li>
+                <li>Malware threats and sniffing</li>
+                <li>Social engineering and penetration testing</li>
+            </ul>
+
+            <p><strong>Best For:</strong> Security analysts, penetration testers, security consultants</p>
+            <p><strong>Average Salary in Pakistan:</strong> PKR 90,000 - 180,000/month</p>
+            <p><strong>Training Duration:</strong> 8-10 weeks</p>
+            <p><strong>Exam Cost:</strong> PKR 45,000</p>
+
+            <h2>Side-by-Side Comparison</h2>
+            <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+                <tr style="background: var(--light-gray);">
+                    <th style="padding: 12px; text-align: left;">Factor</th>
+                    <th style="padding: 12px; text-align: left;">Security+</th>
+                    <th style="padding: 12px; text-align: left;">CEH</th>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">Difficulty</td>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">Intermediate</td>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">Advanced</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">Prerequisites</td>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">Basic IT knowledge</td>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">2+ years security experience</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">Focus</td>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">Defensive security</td>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">Offensive security</td>
+                </tr>
+                <tr>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">Job Demand</td>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">Very High</td>
+                    <td style="padding: 12px; border-top: 1px solid #ddd;">High</td>
+                </tr>
+            </table>
+
+            <h2>Which Should You Choose?</h2>
+            <p><strong>Choose Security+ if:</strong></p>
+            <ul>
+                <li>You're new to cybersecurity</li>
+                <li>You want a solid foundation in security concepts</li>
+                <li>You're on a limited budget</li>
+                <li>You want faster certification (5-6 weeks)</li>
+            </ul>
+
+            <p><strong>Choose CEH if:</strong></p>
+            <ul>
+                <li>You have some security experience</li>
+                <li>You want to specialize in penetration testing</li>
+                <li>You're interested in offensive security roles</li>
+                <li>You have budget for higher investment</li>
+            </ul>
+
+            <blockquote>
+                "I started with Security+ to build my foundation, then got CEH after 1 year. This progression helped me land a penetration tester role at PKR 150,000/month." - Ali M., Security Consultant
+            </blockquote>
+
+            <h2>The Best Path Forward</h2>
+            <p>Many professionals start with Security+ to build a strong foundation, then pursue CEH to specialize. Both certifications are highly valued in Pakistan's job market and can significantly boost your career prospects.</p>
+        `
     },
     {
-        title: "5th",
-        excerpt: "Detailed analysis of cloud engineer salaries across major Pakistani cities and how certifications impact earning potential.",
-        date: "November 15, 2025",
-        category: "Industry News",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+        title: "From Zero to Cloud Engineer: Complete Roadmap for Pakistani Students",
+        excerpt: "A step-by-step guide for fresh graduates and career changers to break into cloud computing without prior experience.",
+        date: "November 5, 2025",
+        category: "Career Advice",
+        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop",
+        fullContent: `
+            <p>Cloud computing offers incredible career opportunities in Pakistan, but many students and fresh graduates don't know where to start. This comprehensive roadmap will take you from zero experience to job-ready cloud engineer in 6-12 months.</p>
+
+            <h2>Phase 1: Build IT Fundamentals (Months 1-2)</h2>
+            <p>Before diving into cloud, you need a solid IT foundation:</p>
+
+            <h3>Learn These Basics:</h3>
+            <ul>
+                <li><strong>Networking Basics:</strong> IP addressing, DNS, DHCP, routing, TCP/IP</li>
+                <li><strong>Operating Systems:</strong> Linux command line, Windows Server basics</li>
+                <li><strong>Virtualization:</strong> Understanding VMs and hypervisors</li>
+                <li><strong>Basic Scripting:</strong> Bash, PowerShell fundamentals</li>
+            </ul>
+
+            <p><strong>Free Resources:</strong></p>
+            <ul>
+                <li>Professor Messer's Network+ videos (YouTube)</li>
+                <li>Linux Journey website</li>
+                <li>Microsoft Learn platform</li>
+            </ul>
+
+            <p><strong>Optional Certification:</strong> CompTIA A+ or Network+ (not required but helpful)</p>
+
+            <h2>Phase 2: Choose Your Cloud Platform (Month 3)</h2>
+            <p>Pick ONE cloud platform to start with. Don't try to learn all three at once.</p>
+
+            <h3>AWS (Most Popular in Pakistan):</h3>
+            <ul>
+                <li>Largest market share globally</li>
+                <li>Most job opportunities in Pakistan</li>
+                <li>Best for startups and tech companies</li>
+            </ul>
+
+            <h3>Azure (Enterprise Favorite):</h3>
+            <ul>
+                <li>Strong in enterprise/corporate sector</li>
+                <li>Great for Windows-focused environments</li>
+                <li>Banks and large corporations prefer Azure</li>
+            </ul>
+
+            <h3>Google Cloud (Growing Presence):</h3>
+            <ul>
+                <li>Strong in data/ML applications</li>
+                <li>Popular with digital agencies</li>
+                <li>Fewer jobs but growing rapidly</li>
+            </ul>
+
+            <p><strong>Recommendation:</strong> Start with AWS if unsure - it has the most opportunities.</p>
+
+            <h2>Phase 3: Cloud Fundamentals (Months 4-5)</h2>
+            <p>Master core cloud concepts and services:</p>
+
+            <h3>Core Services to Learn:</h3>
+            <ul>
+                <li>Compute: EC2 (AWS), Virtual Machines (Azure), Compute Engine (GCP)</li>
+                <li>Storage: S3, Azure Blob, Cloud Storage</li>
+                <li>Networking: VPCs, subnets, security groups</li>
+                <li>Databases: RDS, Azure SQL, Cloud SQL</li>
+                <li>Identity: IAM and access management</li>
+            </ul>
+
+            <p><strong>Hands-On Practice:</strong> Create a free tier account and build projects!</p>
+
+            <h3>Project Ideas:</h3>
+            <ol>
+                <li>Host a static website using S3/Azure Storage</li>
+                <li>Deploy a WordPress site on EC2/VM</li>
+                <li>Set up a database and connect to an application</li>
+                <li>Create a VPC with public and private subnets</li>
+            </ol>
+
+            <h2>Phase 4: Get Certified (Months 6-8)</h2>
+            <p>Certification is CRUCIAL for landing your first cloud job in Pakistan without experience.</p>
+
+            <h3>Recommended First Certifications:</h3>
+            <ul>
+                <li><strong>AWS:</strong> Certified Solutions Architect - Associate</li>
+                <li><strong>Azure:</strong> Azure Administrator Associate (AZ-104)</li>
+                <li><strong>GCP:</strong> Associate Cloud Engineer</li>
+            </ul>
+
+            <p>Invest in quality training - it's worth it. Self-study takes 3-4 months, structured training takes 6-8 weeks.</p>
+
+            <h2>Phase 5: Build Your Portfolio (Months 9-10)</h2>
+            <p>Create projects that showcase your skills:</p>
+
+            <h3>Portfolio Projects:</h3>
+            <ol>
+                <li><strong>Three-Tier Web Application:</strong> Frontend, backend, database on cloud</li>
+                <li><strong>CI/CD Pipeline:</strong> Automated deployment using GitHub Actions</li>
+                <li><strong>Infrastructure as Code:</strong> Terraform or CloudFormation templates</li>
+                <li><strong>Monitoring Setup:</strong> CloudWatch/Azure Monitor dashboards</li>
+            </ol>
+
+            <p>Document everything on GitHub with clear README files.</p>
+
+            <h2>Phase 6: Job Hunt Strategy (Months 11-12)</h2>
+            <p>Time to land your first cloud engineering role:</p>
+
+            <h3>Resume Tips:</h3>
+            <ul>
+                <li>List certification prominently at the top</li>
+                <li>Include your portfolio projects with GitHub links</li>
+                <li>Mention hands-on labs and practical experience</li>
+                <li>Quantify achievements (e.g., "Built 5 cloud projects")</li>
+            </ul>
+
+            <h3>Where to Apply:</h3>
+            <ul>
+                <li>LinkedIn Jobs (set alerts for "cloud engineer")</li>
+                <li>Rozee.pk, Indeed Pakistan</li>
+                <li>Company websites directly (Systems Limited, NetSol, etc.)</li>
+                <li>Network on LinkedIn with cloud professionals</li>
+            </ul>
+
+            <h3>Realistic Salary Expectations:</h3>
+            <ul>
+                <li><strong>Fresh Graduate with Certification:</strong> PKR 60,000 - 85,000/month</li>
+                <li><strong>After 6 months experience:</strong> PKR 90,000 - 120,000/month</li>
+                <li><strong>After 1-2 years:</strong> PKR 130,000 - 180,000/month</li>
+            </ul>
+
+            <h2>Common Mistakes to Avoid</h2>
+            <ul>
+                <li>❌ Trying to learn multiple cloud platforms at once</li>
+                <li>❌ Only watching videos without hands-on practice</li>
+                <li>❌ Skipping certification (it's essential in Pakistan)</li>
+                <li>❌ Not building a portfolio of projects</li>
+                <li>❌ Giving up after a few rejections</li>
+            </ul>
+
+            <blockquote>
+                "I followed this exact roadmap. Started in January 2025 as a fresh CS graduate with no experience. By August, I got my AWS certification through CertifyMe.pk. In October, I landed my first cloud engineer job at PKR 75,000/month at VentureDive!" - Saad K., Cloud Engineer
+            </blockquote>
+
+            <h2>Ready to Start Your Journey?</h2>
+            <p>The cloud computing field in Pakistan is booming, and there's never been a better time to get started. With dedication and the right roadmap, you can transition from zero experience to a well-paid cloud engineer in less than a year.</p>
+        `
     },
     {
-        title: "6th",
-        excerpt: "Detailed analysis of cloud engineer salaries across major Pakistani cities and how certifications impact earning potential.",
-        date: "November 15, 2025",
+        title: "Azure vs AWS: Which Cloud Platform Pays More in Pakistan?",
+        excerpt: "In-depth salary comparison and market analysis to help you choose between AWS and Azure certifications for maximum earning potential.",
+        date: "October 28, 2025",
         category: "Industry News",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
-    },
+       image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop",
+        fullContent: `
+            <p>Choosing between AWS and Azure certifications is one of the biggest decisions for aspiring cloud professionals in Pakistan. Both platforms offer excellent career opportunities, but which one pays better? Let's break down the numbers and market dynamics.</p>
+
+            <h2>Current Market Share in Pakistan</h2>
+            <p><strong>AWS:</strong> 45% of cloud deployments in Pakistan</p>
+            <p><strong>Azure:</strong> 35% of cloud deployments in Pakistan</p>
+            <p><strong>Google Cloud:</strong> 12% of cloud deployments</p>
+            <p><strong>Others:</strong> 8%</p>
+
+            <h2>Entry-Level Salaries (0-2 years experience)</h2>
+            
+            <h3>AWS Certified Solutions Architect Associate:</h3>
+            <p><strong>Karachi:</strong> PKR 65,000 - 95,000/month</p>
+            <p><strong>Lahore:</strong> PKR 60,000 - 90,000/month</p>
+            <p><strong>Islamabad:</strong> PKR 70,000 - 100,000/month</p>
+            <p><strong>Average:</strong> PKR 78,000/month</p>
+
+            <h3>Azure Administrator Associate (AZ-104):</h3>
+            <p><strong>Karachi:</strong> PKR 70,000 - 100,000/month</p>
+            <p><strong>Lahore:</strong> PKR 65,000 - 95,000/month</p>
+            <p><strong>Islamabad:</strong> PKR 75,000 - 105,000/month</p>
+            <p><strong>Average:</strong> PKR 85,000/month</p>
+
+            <p><strong>Winner:</strong> Azure (9% higher average salary)</p>
+
+            <h2>Mid-Level Salaries (2-5 years experience)</h2>
+
+            <h3>AWS Solutions Architect / Cloud Engineer:</h3>
+            <p><strong>Karachi:</strong> PKR 120,000 - 180,000/month</p>
+            <p><strong>Lahore:</strong> PKR 110,000 - 170,000/month</p>
+            <p><strong>Islamabad:</strong> PKR 130,000 - 190,000/month</p>
+            <p><strong>Average:</strong> PKR 150,000/month</p>
+
+            <h3>Azure Solutions Architect / Cloud Engineer:</h3>
+            <p><strong>Karachi:</strong> PKR 130,000 - 190,000/month</p>
+            <p><strong>Lahore:</strong> PKR 120,000 - 180,000/month</p>
+            <p><strong>Islamabad:</strong> PKR 140,000 - 200,000/month</p>
+            <p><strong>Average:</strong> PKR 162,000/month</p>
+
+            <p><strong>Winner:</strong> Azure (8% higher average salary)</p>
+
+            <h2>Senior-Level Salaries (5+ years experience)</h2>
+
+            <h3>AWS Cloud Architect / DevOps Lead:</h3>
+            <p><strong>Karachi:</strong> PKR 220,000 - 380,000/month</p>
+            <p><strong>Lahore:</strong> PKR 200,000 - 350,000/month</p>
+            <p><strong>Islamabad:</strong> PKR 240,000 - 400,000/month</p>
+            <p><strong>Average:</strong> PKR 298,000/month</p>
+
+            <h3>Azure Cloud Architect / DevOps Lead:</h3>
+            <p><strong>Karachi:</strong> PKR 240,000 - 400,000/month</p>
+            <p><strong>Lahore:</strong> PKR 220,000 - 370,000/month</p>
+            <p><strong>Islamabad:</strong> PKR 260,000 - 420,000/month</p>
+            <p><strong>Average:</strong> PKR 318,000/month</p>
+
+            <p><strong>Winner:</strong> Azure (7% higher average salary)</p>
+
+            <h2>Why Does Azure Pay Slightly More?</h2>
+
+            <h3>1. Enterprise Sector Dominance:</h3>
+            <p>Banks, telecom companies, and large corporations in Pakistan predominantly use Azure due to its Microsoft integration. These enterprises typically pay higher salaries.</p>
+
+            <h3>2. Less Competition:</h3>
+            <p>Fewer Azure professionals means higher demand and better negotiating power for those who have the skills.</p>
+
+            <h3>3. Microsoft Partner Ecosystem:</h3>
+            <p>Many Pakistani IT companies are Microsoft Gold Partners, creating consistent demand for Azure expertise.</p>
+
+            <h2>But AWS Has More Job Openings</h2>
+            <p>While Azure pays slightly more, AWS has significantly more job postings:</p>
+            <ul>
+                <li><strong>AWS Jobs:</strong> ~450 openings (LinkedIn Pakistan, November 2025)</li>
+                <li><strong>Azure Jobs:</strong> ~320 openings (LinkedIn Pakistan, November 2025)</li>
+            </ul>
+
+            <p>AWS has 40% more job opportunities, making it easier to find employment quickly.</p>
+
+            <h2>Industry Breakdown</h2>
+
+            <h3>Startups & Tech Companies → AWS</h3>
+            <ul>
+                <li>Careem, Bykea, Zameen.com</li>
+                <li>Most SaaS companies</li>
+                <li>Digital agencies</li>
+            </ul>
+
+            <h3>Banks & Enterprises → Azure</h3>
+            <ul>
+                <li>All major Pakistani banks</li>
+                <li>Telecom companies (Jazz, Telenor, Zong)</li>
+                <li>Government contracts</li>
+            </ul>
+
+            <h3>Hybrid (Both AWS & Azure):</h3>
+            <ul>
+                <li>Systems Limited, NetSol, Arbisoft</li>
+                <li>Large IT services companies</li>
+            </ul>
+
+            <h2>Remote International Work</h2>
+
+            <h3>AWS Remote Roles:</h3>
+            <p><strong>Entry-Level:</strong> $1,000 - $1,800/month</p>
+            <p><strong>Mid-Level:</strong> $2,500 - $4,500/month</p>
+            <p><strong>Senior:</strong> $5,000 - $9,000/month</p>
+
+            <h3>Azure Remote Roles:</h3>
+            <p><strong>Entry-Level:</strong> $900 - $1,600/month</p>
+            <p><strong>Mid-Level:</strong> $2,300 - $4,200/month</p>
+            <p><strong>Senior:</strong> $4,800 - $8,500/month</p>
+
+            <p>For international remote work, AWS has a slight edge with more opportunities and marginally better pay.</p>
+
+            <h2>The Verdict: Which Should You Choose?</h2>
+
+            <h3>Choose AWS if:</h3>
+            <ul>
+                <li>You want more job opportunities</li>
+                <li>You're interested in startups and tech companies</li>
+                <li>You prefer working with cutting-edge technologies</li>
+                <li>You want remote international opportunities</li>
+            </ul>
+
+            <h3>Choose Azure if:</h3>
+            <ul>
+                <li>You want slightly higher salaries locally</li>
+                <li>You prefer enterprise/corporate environments</li>
+                <li>You have Windows/Microsoft background</li>
+                <li>You want to work in banking or telecom sectors</li>
+            </ul>
+
+            <h3>Best Strategy: Get Both!</h3>
+            <p>Many successful cloud professionals start with one platform, then add the second certification within 12-18 months. This makes you highly versatile and can increase your salary by 30-50%.</p>
+
+            <h2>Multi-Certification Salaries</h2>
+            <p>Professionals with both AWS and Azure certifications earn significantly more:</p>
+            <ul>
+                <li><strong>Entry-Level (Both):</strong> PKR 95,000 - 125,000/month</li>
+                <li><strong>Mid-Level (Both):</strong> PKR 180,000 - 250,000/month</li>
+                <li><strong>Senior (Both):</strong> PKR 350,000 - 500,000/month</li>
+            </ul>
+
+            <blockquote>
+                "I started with AWS certification and got a job at PKR 80,000/month. After 1 year, I added Azure certification through CertifyMe.pk. Within 2 months, I switched to a new role paying PKR 165,000/month - more than double my starting salary!" - Zainab T., Multi-Cloud Engineer
+            </blockquote>
+
+            <h2>Final Recommendation</h2>
+            <p>Start with whichever platform aligns with your target industry. AWS for tech startups, Azure for enterprises. Once you have 12-18 months of experience, add the second certification to maximize your earning potential.</p>
+
+            <p>Either way, both platforms offer excellent career opportunities in Pakistan's booming cloud market. The key is to get started, get certified, and gain hands-on experience.</p>
+        `
+    }
 ];
 
 // State
@@ -662,8 +1228,8 @@ function renderBlogPosts() {
     // Show only the first 3 posts
     const limitedPosts = blogPosts.slice(0, 3);
 
-    grid.innerHTML = limitedPosts.map(post => `
-        <div class="blog-card">
+    grid.innerHTML = limitedPosts.map((post, index) => `
+        <div class="blog-card" onclick="window.location.href='blog-page.php?id=${index}'" style="cursor: pointer;">
             <img src="${post.image}" alt="${post.title}" class="blog-image">
             <div class="blog-content">
                 <span class="blog-category">${post.category}</span>
