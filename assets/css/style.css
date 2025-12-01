@@ -2208,6 +2208,10 @@ section {
             justify-content: center;
         }
 
+        .modal.show {
+            display: flex !important;
+        }
+
         .modal-content {
             background: var(--white);
             border-radius: var(--radius);

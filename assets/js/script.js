@@ -317,8 +317,10 @@ function renderCertifications() {
     const grid = document.getElementById('certificationsGrid');
     const displayCerts = certifications.slice(0, 6);
     
-    grid.innerHTML = displayCerts.map(cert => `
-        <div class="certification-card" onclick="showCertificationModal(${certifications.indexOf(cert)})">
+    grid.innerHTML = displayCerts.map((cert, idx) => {
+        const actualIndex = certifications.indexOf(cert);
+        return `
+        <div class="certification-card" onclick="showCertificationModal(${actualIndex})" style="cursor: pointer;">
             <img src="${cert.icon}" alt="${cert.name}" class="cert-icon">
             <div class="cert-vendor">${cert.vendor}</div>
             <h3 class="cert-name">${cert.name}</h3>
@@ -334,7 +336,7 @@ function renderCertifications() {
             </div>
             <span class="difficulty-badge difficulty-${cert.difficulty.toLowerCase()}">${cert.difficulty}</span>
         </div>
-    `).join('');
+    `}).join('');
 }
 
 // Show All Certifications
@@ -342,8 +344,8 @@ function showAllCertifications(event) {
     event.preventDefault();
     const grid = document.getElementById('certificationsGrid');
     
-    grid.innerHTML = certifications.map(cert => `
-        <div class="certification-card" onclick="showCertificationModal(${certifications.indexOf(cert)})">
+    grid.innerHTML = certifications.map((cert, index) => `
+        <div class="certification-card" onclick="showCertificationModal(${index})" style="cursor: pointer;">
             <img src="${cert.icon}" alt="${cert.name}" class="cert-icon">
             <div class="cert-vendor">${cert.vendor}</div>
             <h3 class="cert-name">${cert.name}</h3>
@@ -366,11 +368,14 @@ function showAllCertifications(event) {
 
 // Certification Modal
 function showCertificationModal(index) {
-    const cert = certifications[index];
-    const modal = document.getElementById('certificationModal');
-    const modalBody = document.getElementById('modalBody');
-    
-    modalBody.innerHTML = `
+    try {
+        const cert = certifications[index];
+        const modal = document.getElementById('certificationModal');
+        const modalBody = document.getElementById('modalBody');
+        
+        if (!modal || !modalBody || !cert) return;
+        
+        modalBody.innerHTML = `
         <div class="modal-header">
             <img src="${cert.icon}" alt="${cert.name}" class="modal-icon">
             <h2 class="modal-title">${cert.name}</h2>
@@ -440,15 +445,20 @@ function showCertificationModal(index) {
             <a href="#contact" class="btn btn-primary btn-large" onclick="closeModal()">Enroll Now</a>
         </div>
     `;
-    
-    modal.classList.add('show');
-    document.body.style.overflow = 'hidden';
+        
+        modal.classList.add('show');
+        document.body.style.overflow = 'hidden';
+    } catch(error) {
+        console.error('Error in showCertificationModal:', error);
+    }
 }
 
 function closeModal() {
     const modal = document.getElementById('certificationModal');
-    modal.classList.remove('show');
-    document.body.style.overflow = 'auto';
+    if (modal) {
+        modal.classList.remove('show');
+        document.body.style.overflow = 'auto';
+    }
 }
 
 function switchTab(event, tabId) {
@@ -639,8 +649,10 @@ function showSuccessStoryModal(index) {
 
 function closeSuccessModal() {
     const modal = document.getElementById('successStoryModal');
-    modal.classList.remove('show');
-    document.body.style.overflow = 'auto';
+    if (modal) {
+        modal.classList.remove('show');
+        document.body.style.overflow = 'auto';
+    }
 }
 
 // Blog Posts
@@ -780,34 +792,3 @@ window.addEventListener('click', function(e) {
         closeSuccessModal();
     }
 });
- // Modal functions
-        function closeModal() {
-            document.getElementById('certificationModal').style.display = 'none';
-        }
-        
-        function closeSuccessModal() {
-            document.getElementById('successStoryModal').style.display = 'none';
-        }
-        
-        // Example of opening a modal (you can customize this based on your needs)
-        function openCertificationModal() {
-            document.getElementById('certificationModal').style.display = 'flex';
-        }
-        
-        function openSuccessModal() {
-            document.getElementById('successStoryModal').style.display = 'flex';
-        }
-        
-        // Close modals when clicking outside
-        window.onclick = function(event) {
-            const certModal = document.getElementById('certificationModal');
-            const successModal = document.getElementById('successStoryModal');
-            
-            if (event.target === certModal) {
-                certModal.style.display = 'none';
-            }
-            
-            if (event.target === successModal) {
-                successModal.style.display = 'none';
-            }
-        }
