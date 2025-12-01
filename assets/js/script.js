@@ -130,12 +130,12 @@ const certifications = [
 
 const testimonials = [
     {
-        name: "Ahmed Khan",
+        name: "Daniyal Tariq",
         role: "Cloud Engineer at Systems Limited",
         certification: "AWS Solutions Architect",
-        quote: "CertifyMe.pk helped me transition from support role to cloud engineering. The instructors are experienced and the testing center is world-class.",
-        rating: 5,
-        photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop"
+        quote: "CertifyMe helped me transition from support role to cloud engineering. The instructors are experienced and the testing center is world-class.",
+        rating: 4,
+        photo: "./assets/image/download (9).png"
     },
     {
         name: "Fatima Ali",
@@ -143,15 +143,15 @@ const testimonials = [
         certification: "Microsoft Azure Admin",
         quote: "Best investment in my career! I passed Azure exam on first attempt and got 40% salary increase within 2 months.",
         rating: 5,
-        photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop"
+        photo: "./assets/image/testimage.jpeg"
     },
     {
-        name: "Hassan Raza",
+        name: "Zaid Lajpal",
         role: "Security Analyst at MCB Bank",
         certification: "CompTIA Security+",
         quote: "The hands-on labs and real-world scenarios prepared me perfectly for the exam and my new role in cybersecurity.",
-        rating: 5,
-        photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop"
+        rating: 4,
+        photo: "./assets/image/image.png"
     }
 ];
 
