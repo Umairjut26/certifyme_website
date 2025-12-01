@@ -131,12 +131,14 @@
         .blog-cta-box h3 {
             font-size: 28px;
             margin-bottom: 15px;
+            color: var(--text-gray);
         }
 
         .blog-cta-box p {
             font-size: 18px;
             margin-bottom: 25px;
             opacity: 0.9;
+            color: black;
         }
 
         .blog-cta-btn {
