@@ -218,21 +218,21 @@ const blogPosts = [
         excerpt: "Discover which certifications are most in-demand by Pakistani employers and offer the best ROI for your career.",
         date: "November 20, 2025",
         category: "Career Advice",
-        image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop"
+       image: "./assets/image/pexels-pixabay-261662.jpg"
     },
     {
         title: "How to Prepare for AWS Solutions Architect Exam",
         excerpt: "A comprehensive 6-week study plan with free resources and practice tips from our certified instructors.",
         date: "November 18, 2025",
         category: "Exam Prep",
-        image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop"
+        image: "./assets/image/imgi_1_th.png"
     },
     {
         title: "Cloud Computing Jobs in Pakistan: Salary Guide 2026",
         excerpt: "Detailed analysis of cloud engineer salaries across major Pakistani cities and how certifications impact earning potential.",
         date: "November 15, 2025",
         category: "Industry News",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+        image: "./assets/image/imgi_4_t_500x300.png"
     },
     
     

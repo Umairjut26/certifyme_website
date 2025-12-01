@@ -34,10 +34,12 @@
                 </div>
                 <div class="testing-center-gallery">
                     <div class="gallery-grid">
-                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop" alt="Testing Center" loading="lazy">
-                        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&h=400&fit=crop" alt="Testing Stations" loading="lazy">
-                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600&h=400&fit=crop" alt="Training Room" loading="lazy">
-                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&h=400&fit=crop" alt="Study Area" loading="lazy">
+                        <img src="./assets/image/imgi_10_default.png" alt="Testing Center" loading="lazy">
+                         <img src="./assets/image/download (7).png" alt="Testing Center" loading="lazy">
+                        
+                       <img src="./assets/image/download (8).png" alt="Testing Center" loading="lazy">
+                       <img src="./assets/image/officeimg1.png" alt="Testing Center" loading="lazy">
+                       
                     </div>
                 </div>
             </div>
