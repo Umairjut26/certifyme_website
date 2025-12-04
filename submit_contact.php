@@ -9,7 +9,7 @@ try {
     $pass = 'R1HDk,=>)y|)}a:<';
     $db = 'certifyme_pk';
     
-    $conn = new mysqli($host, $user, $pass, $db);
+    $conn = new mysqli("localhost", "certifyme_pk_usr", "R1HDk,=>)y|)}a:<", "certifyme_pk");
     
     if ($conn->connect_error) {
         throw new Exception('Unable to connect to database. Please try again later.');
