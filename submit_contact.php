@@ -1,9 +1,9 @@
 <?php
 // MySQL connection
-$host = 'localhost';
-$user = 'root';
-$pass = '';
-$db = 'certifyme'; // Change to your actual database name
+$host = 'certifyme.pk';
+$user = 'certifyme_pk_usr';
+$pass = 'R1HDk,=>)y|)}a:<';
+$db = 'certifyme_pk'; // Change to your actual database name
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
