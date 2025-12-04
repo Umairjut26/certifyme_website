@@ -6,7 +6,7 @@ try {
     // Database connection
     $host = 'localhost';
     $user = 'certifyme_pk_usr';
-    $pass = 'R1HDk,=>)y|)}a:<';
+    $pass = 'Umair1$234';
     $db = 'certifyme_pk';
     
     $conn = new mysqli("localhost", "certifyme_pk_usr", "R1HDk,=>)y|)}a:<", "certifyme_pk");
