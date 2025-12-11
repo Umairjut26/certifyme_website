@@ -18,6 +18,9 @@
 <body>
 
 <?php 
+    // DB Connection
+    include 'includes/db_connect.php';
+
     // Header
     include 'includes/page-parts/header.php';
 

@@ -4,15 +4,11 @@ error_reporting(0);
 
 try {
     // Database connection
-    $host = 'localhost';
-    $user = 'certifyme_pk_usr';
-    $pass = 'Umair1$234';
-    $db = 'certifyme_pk';
+    require_once 'includes/db_connect.php';
     
-    $conn = new mysqli($host, $user, $pass, $db);
-    
+    // Check connection from included file
     if ($conn->connect_error) {
-        throw new Exception('Unable to connect to database. Please try again later.');
+        throw new Exception('Connection failed: ' . $conn->connect_error);
     }
     
     $conn->set_charset("utf8mb4");
