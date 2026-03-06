@@ -1,0 +1,12 @@
+# Ignore database credentials
+config.php
+.env
+
+# Ignore system / IDE files
+.DS_Store
+*.log
+*.cache
+
+# Optional: Ignore uploads or temp files
+uploads/
+tmp/
