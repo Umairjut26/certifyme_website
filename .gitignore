@@ -1,6 +1,7 @@
 # Ignore database credentials
-config.php
+db.php
 .env
+*.sql
 
 # Ignore system / IDE files
 .DS_Store
